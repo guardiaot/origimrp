@@ -1,0 +1,19 @@
+# Arquivos compactados
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.md
+
+# Arquivos e backups de banco de dados
+*.sql
+*.sql.gz
+*.dump
+*.backup
+
+# Arquivos de ambiente e segredos
+.env
+.env.*
+!.env.example
+secrets/
